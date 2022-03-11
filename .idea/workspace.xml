@@ -4,6 +4,7 @@
     <list default="true" id="15b90ae1-2e49-4e63-8b7c-90e7d771ecf3" name="Changes" comment="Login method done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1646928932175</updated>
       <workItem from="1646928938912" duration="468000" />
-      <workItem from="1647017964040" duration="7350000" />
+      <workItem from="1647017964040" duration="7671000" />
     </task>
     <task id="LOCAL-00001" summary="Login method done">
       <created>1647021570528</created>
