@@ -12,7 +12,7 @@ function Login() {
     const [loginStatus, setLoginStatus] = useState("");
 
     const register = () => {
-        Axios.post("http://localhost:3001/register", {
+        Axios.post("https://prueba-react-backend.herokuapp.com/register", {
             username: usernameReg,
             password: passwordReg,
         }).then((response) => {
@@ -22,7 +22,7 @@ function Login() {
 
 
     const login = () => {
-        Axios.post("http://localhost:3001/login", {
+        Axios.post("https://prueba-react-backend.herokuapp.com/login", {
             username: username,
             password: password,
         }).then((response) => {
