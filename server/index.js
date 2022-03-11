@@ -8,9 +8,9 @@ const PORT = 3001;
 
 const db = mysql.createConnection({
     host: "eu-cdbr-west-02.cleardb.net",
-    user: "b3a2c8ad8676fb",
-    password: "d7b3892b",
-    database: "heroku_b05adc70f7e74f2",
+    user: "b976cfa96691f2",
+    password: "e1b56bb4",
+    database: "heroku_cf5c4e9e2e2106c",
 });
 
 app.use(cors());
