@@ -4,6 +4,8 @@ const cors = require("cors");
 const app = express();
 const mysql = require('mysql');
 
+const PORT = 3001;
+
 const db = mysql.createConnection({
     host: "eu-cdbr-west-02.cleardb.net",
     user: "b3a2c8ad8676fb",
@@ -104,6 +106,6 @@ app.put("/api/update", (req, res) => {
 });
 
 
-app.listen(3001, () => {
-    console.log("running on port 3001");
+app.listen(process.env.PORT || PORT, () => {
+    console.log(`Server running on port ${PORT}`);
 });
