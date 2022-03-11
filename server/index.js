@@ -5,10 +5,10 @@ const app = express();
 const mysql = require('mysql');
 
 const db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "password",
-    database: "cruddatabase",
+    host: "eu-cdbr-west-02.cleardb.net",
+    user: "b3a2c8ad8676fb",
+    password: "d7b3892b",
+    database: "heroku_b05adc70f7e74f2",
 });
 
 app.use(cors());
