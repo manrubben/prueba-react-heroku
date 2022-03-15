@@ -9,14 +9,17 @@ function Crud() {
 
     const [newReview, setNewReview] = useState("");
 
+    /*const BASEURL = "https://prueba-react-backend.herokuapp.com";*/
+    const BASEURL = "http://localhost:3001";
+
     useEffect(() => {
-        Axios.get("https://prueba-react-backend.herokuapp.com/api/get").then((response) => {
+        Axios.get(BASEURL + "/api/get").then((response) => {
             setMovieList(response.data)
         });
     }, []);
 
     const submitReview = () => {
-        Axios.post("https://prueba-react-backend.herokuapp.com/api/insert", {
+        Axios.post(BASEURL + "/api/insert", {
             movieName: movieName,
             movieReview: review,
         })
@@ -29,11 +32,11 @@ function Crud() {
 
 
     const deleteReview = (movie) => {
-        Axios.delete(`https://prueba-react-backend.herokuapp.com/api/delete/${movie}`);
+        Axios.delete(BASEURL + `/api/delete/${movie}`);
     }
 
     const updateReview = (movie) => {
-        Axios.put("https://prueba-react-backend.herokuapp.com/api/update", {
+        Axios.put(BASEURL + "/api/update", {
             movieName: movie,
             movieReview: newReview,
         });

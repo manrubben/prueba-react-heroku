@@ -11,8 +11,11 @@ function Login() {
 
     const [loginStatus, setLoginStatus] = useState("");
 
+    /*const BASEURL = "https://prueba-react-backend.herokuapp.com";*/
+    const BASEURL = "http://localhost:3001";
+
     const register = () => {
-        Axios.post("https://prueba-react-backend.herokuapp.com/register", {
+        Axios.post(BASEURL + "/register", {
             username: usernameReg,
             password: passwordReg,
         }).then((response) => {
@@ -22,7 +25,7 @@ function Login() {
 
 
     const login = () => {
-        Axios.post("https://prueba-react-backend.herokuapp.com/login", {
+        Axios.post(BASEURL + "/login", {
             username: username,
             password: password,
         }).then((response) => {
