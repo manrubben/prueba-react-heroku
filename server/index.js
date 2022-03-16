@@ -10,6 +10,8 @@ const saltRounds = 10;
 const cookieParser = require("cookie-parser");
 const session = require("express-session");
 
+/*const BASEURL = "http://localhost:3000";*/
+const BASEURL = "https://prueba-react-tfg.herokuapp.com";
 const PORT = 3001;
 
 const db = mysql.createPool({
@@ -22,10 +24,11 @@ const db = mysql.createPool({
 db.query('select 1 + 1', (err, rows) => { /* */ }); //para mantener la conexion activa con la base de datos del servidor
 
 
+
 app.use(express.json());
 app.use(cors({
-    origin: ["http://localhost:3000"],
-    methods: ["GET", "POST"],
+    origin: [BASEURL],
+    methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true
 }));
 app.use(cookieParser())
