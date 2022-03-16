@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15b90ae1-2e49-4e63-8b7c-90e7d771ecf3" name="Changes" comment="Login with session and cookie done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Crud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
       <workItem from="1647372092181" duration="1766000" />
       <workItem from="1647377428551" duration="3278000" />
       <workItem from="1647442342380" duration="61000" />
-      <workItem from="1647453550972" duration="9558000" />
+      <workItem from="1647453550972" duration="11312000" />
     </task>
     <task id="LOCAL-00001" summary="Login method done">
       <created>1647021570528</created>

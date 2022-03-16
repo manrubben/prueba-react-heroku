@@ -30,11 +30,6 @@ app.use(cors({
     origin: [BASEURL],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
-    proxy: true,
-    cookie: {
-        sameSite:'none',
-        secure:true
-    },
 }));
 app.use(cookieParser())
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -45,7 +40,10 @@ app.use(
         secret: "subscribe",
         resave: false,
         saveUninitialized: false,
+        proxy: true,
         cookie: {
+            sameSite:'none',
+            secure:true,
             expires: 60 * 60 * 24,
         },
     })
