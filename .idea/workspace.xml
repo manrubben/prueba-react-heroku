@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15b90ae1-2e49-4e63-8b7c-90e7d771ecf3" name="Changes" comment="Login and register with bcrypt done">
+    <list default="true" id="15b90ae1-2e49-4e63-8b7c-90e7d771ecf3" name="Changes" comment="Login with session and cookie done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Crud.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Crud.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/server" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -60,7 +54,7 @@
       <workItem from="1647372092181" duration="1766000" />
       <workItem from="1647377428551" duration="3278000" />
       <workItem from="1647442342380" duration="61000" />
-      <workItem from="1647453550972" duration="4638000" />
+      <workItem from="1647453550972" duration="5776000" />
     </task>
     <task id="LOCAL-00001" summary="Login method done">
       <created>1647021570528</created>
@@ -76,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647377815126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Login with session and cookie done">
+      <created>1647458648315</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1647458648315</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +98,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Login method done" />
     <MESSAGE value="Login and register with bcrypt done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login and register with bcrypt done" />
+    <MESSAGE value="Login with session and cookie done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login with session and cookie done" />
   </component>
 </project>

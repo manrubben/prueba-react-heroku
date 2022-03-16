@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 const mysql = require('mysql');
 
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const saltRounds = 10;
 
 const cookieParser = require("cookie-parser");
