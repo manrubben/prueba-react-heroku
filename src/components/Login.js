@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useEffect, useState} from "react";
 import Axios from "axios";
 import "../App.css";
 
@@ -11,8 +11,10 @@ function Login() {
 
     const [loginStatus, setLoginStatus] = useState("");
 
-    const BASEURL = "https://prueba-react-backend.herokuapp.com";
-    /*const BASEURL = "http://localhost:3001";*/
+    Axios.defaults.withCredentials = true;
+
+    /*const BASEURL = "https://prueba-react-backend.herokuapp.com";*/
+    const BASEURL = "http://localhost:3001";
 
     const register = () => {
         Axios.post(BASEURL + "/register", {
@@ -36,6 +38,14 @@ function Login() {
             }
         });
     };
+
+    useEffect(() => {
+        Axios.get("http://localhost:3001/login").then((response) => {
+            if (response.data.loggedIn == true){
+                setLoginStatus(response.data.user[0].username);
+            }
+        });
+    }, []);
 
 
     return (

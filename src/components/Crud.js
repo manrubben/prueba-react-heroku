@@ -9,8 +9,8 @@ function Crud() {
 
     const [newReview, setNewReview] = useState("");
 
-    const BASEURL = "https://prueba-react-backend.herokuapp.com";
-    /*const BASEURL = "http://localhost:3001";*/
+    /*const BASEURL = "https://prueba-react-backend.herokuapp.com";*/
+    const BASEURL = "http://localhost:3001";
 
     useEffect(() => {
         Axios.get(BASEURL + "/api/get").then((response) => {
